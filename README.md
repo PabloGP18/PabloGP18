@@ -3,13 +3,8 @@
 <!--
 **PabloGP18/PabloGP18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Price calculation
-- 🌱 I’m currently learning PHP
-- 👯 I’m looking to collaborate on Project
-- 🤔 I’m looking for help with Projects
-- 💬 Ask me about Coding
+- 🔭 I’m currently studying @ becode to become a junior developer
 - 📫 How to reach me: garciaplaza.pablo@gmail.com
 
 ## Stats
