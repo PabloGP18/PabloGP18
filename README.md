@@ -4,28 +4,16 @@
 </a>
 
 ```ts
-import React, { useState } from 'react';
-
-function About() {
+function AboutMe() {
   const [name, setName] = useState("Pablo");
   const [location, setLocation] = useState("Antwerp");
   const [driven, setDriven] = useState(true);
-  const [Situation, setSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
+  const [presentSituation, setPresentSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
   const [goal, setGoal] = useState("I'm looking for a company that supports ongoing learning and growth.");
   const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
   const [languages, setLanguages] = useState(["HTML", "CSS", "JavaScript", "TypeScript", "C#", "PHP"]);
   const [developmentUtilities, setDevelopmentUtilities] = useState(["React", "Node.js", "Express", "Strapi"]);
-  const [extraUtilities, setExtraUtilities] = useState(
-  ["Git", 
-   "Github", 
-   "Jira", 
-   "Bitbucket", 
-   "mySQL", 
-   "postgreSQL", 
-   "MongoDB", 
-   "Netlify", 
-   "Heroku"]
-   );
+  const [extraUtilities, setExtraUtilities] = useState(["Git", "Github", "Jira", "Bitbucket", "mySQL", "postgreSQL", "MongoDB", "Netlify", "Heroku"]);
 
   return (
     <div>
@@ -35,9 +23,9 @@ function About() {
         <li>Location: {location}</li>
         <li>Driven: {driven.toString()}</li>
       </ul>
-      <p><strong>Present Situation:</strong> {presentSituation}</p>
-      <p><strong>Goal: </strong> {goal}</p>
-      <p><strong>Focusing On:</strong> {focusing}</p>
+      {presentSituation && <p><strong>Present Situation:</strong> {presentSituation}</p>}
+      {goal && <p><strong>Goal:</strong> {goal}</p>}
+      {focusing && <p><strong>Focusing On:</strong> {focusing}</p>}
       <p><strong>Languages:</strong></p>
       <ul>
         {languages.map((language) => <li key={language}>{language}</li>)}
@@ -55,6 +43,7 @@ function About() {
 }
 
 export default About;
+
 ```
 
 ## Stats
