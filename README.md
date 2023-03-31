@@ -1,8 +1,3 @@
-/****************************************************************************************************
- *                                                                                                  *
- *                                        Hello, World!                                            *
- *                                                                                                  *
- ****************************************************************************************************/
 
 ##Connect with me on
 [![Connect with me on LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yourname/)](https://www.linkedin.com/in/pablo-garcia-plaza/)
