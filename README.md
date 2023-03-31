@@ -9,41 +9,96 @@
 </a>
 
 ```ts
-function AboutMe() {
-  const [name, setName] = useState("Pablo");
- function About() {
+function About() {
   const [name, setName] = useState("Pablo");
   const [location, setLocation] = useState("Antwerp");
   const [driven, setDriven] = useState(true);
-  const [presentSituation, setPresentSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
-  const [goal, setGoal] = useState("I'm looking for a company that supports ongoing learning and growth.");
-  const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
-  const [languages, setLanguages] = useState(["HTML", "CSS", "JavaScript", "TypeScript", "C#", "PHP"]);
-  const [developmentUtilities, setDevelopmentUtilities] = useState(["React", "Node.js", "Express", "Strapi"]);
-  const [extraUtilities, setExtraUtilities] = useState(["Git", "Github", "Jira", "Bitbucket", "mySQL", "postgreSQL", "MongoDB", "Netlify", "Heroku"]);
+  const [
+    presentSituation,
+    setPresentSituation,
+  ] = useState(
+    "I completed a 7-month full-stack developer course and a 3-month internship."
+  );
+  const [
+    goal,
+    setGoal,
+  ] = useState("I'm looking for a company that supports ongoing learning and growth.");
+  const [
+    focusing,
+    setFocusing,
+  ] = useState("Refining my full-stack expertise with React and Node.js.");
+  const [languages, setLanguages] = useState([
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "C#",
+    "PHP",
+  ]);
+  const [developmentUtilities, setDevelopmentUtilities] = useState([
+    "React",
+    "Node.js",
+    "Express",
+    "Strapi",
+  ]);
+  const [extraUtilities, setExtraUtilities] = useState([
+    "Git",
+    "Github",
+    "Jira",
+    "Bitbucket",
+    "mySQL",
+    "postgreSQL",
+    "MongoDB",
+    "Netlify",
+    "Heroku",
+  ]);
 
   return (
     <div>
-      <h1 style={{fontSize: "24px"}}>About Me</h1>
+      <h1 style={{ fontSize: "24px" }}>About Me</h1>
       <ul>
         <li>Name: {name}</li>
         <li>Location: {location}</li>
         <li>Driven: {driven.toString()}</li>
       </ul>
-      {presentSituation && <p><strong>Present Situation:</strong> {presentSituation}</p>}
-      {goal && <p><strong>Goal:</strong> {goal}</p>}
-      {focusing && <p><strong>Focusing On:</strong> {focusing}</p>}
-      <p><strong>Languages:</strong></p>
+      {presentSituation && (
+        <p>
+          <strong>Present Situation:</strong> {presentSituation}
+        </p>
+      )}
+      {goal && (
+        <p>
+          <strong>Goal:</strong> {goal}
+        </p>
+      )}
+      {focusing && (
+        <p>
+          <strong>Focusing On:</strong> {focusing}
+        </p>
+      )}
+      <p>
+        <strong>Languages:</strong>
+      </p>
       <ul>
-        {languages.map((language) => <li key={language}>{language}</li>)}
+        {languages.map((language) => (
+          <li key={language}>{language}</li>
+        ))}
       </ul>
-      <p><strong>Development Utilities:</strong></p>
+      <p>
+        <strong>Development Utilities:</strong>
+      </p>
       <ul>
-        {developmentUtilities.map((utility) => <li key={utility}>{utility}</li>)}
+        {developmentUtilities.map((utility) => (
+          <li key={utility}>{utility}</li>
+        ))}
       </ul>
-      <p><strong>Extra Utilities:</strong></p>
+      <p>
+        <strong>Extra Utilities:</strong>
+      </p>
       <ul>
-        {extraUtilities.map((utility) => <li key={utility}>{utility}</li>)}
+        {extraUtilities.map((utility) => (
+          <li key={utility}>{utility}</li>
+        ))}
       </ul>
     </div>
   );
