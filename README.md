@@ -1,3 +1,8 @@
+<h1 align="center">
+  Hello!
+  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" alt="waving hand" width="22px">
+</h1>
+
 
 ### Connect with me on <a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
  <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -6,6 +11,8 @@
 ```ts
 function AboutMe() {
   const [name, setName] = useState("Pablo");
+ function About() {
+  const [name, setName] = useState("Pablo");
   const [location, setLocation] = useState("Antwerp");
   const [driven, setDriven] = useState(true);
   const [presentSituation, setPresentSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
@@ -13,15 +20,11 @@ function AboutMe() {
   const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
   const [languages, setLanguages] = useState(["HTML", "CSS", "JavaScript", "TypeScript", "C#", "PHP"]);
   const [developmentUtilities, setDevelopmentUtilities] = useState(["React", "Node.js", "Express", "Strapi"]);
-  const [extraUtilities, setExtraUtilities] = useState(
-  ["Git", "Github", 
-   "Jira", "Bitbucket", 
-   "mySQL", "postgreSQL", "MongoDB", 
-   "Netlify", "Heroku"]);
+  const [extraUtilities, setExtraUtilities] = useState(["Git", "Github", "Jira", "Bitbucket", "mySQL", "postgreSQL", "MongoDB", "Netlify", "Heroku"]);
 
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 style={{fontSize: "24px"}}>About Me</h1>
       <ul>
         <li>Name: {name}</li>
         <li>Location: {location}</li>
