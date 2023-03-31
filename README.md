@@ -1,6 +1,5 @@
 
-## Connect with me on
-<a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
+### Connect with me on <a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
  <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
@@ -14,18 +13,18 @@ function About() {
   const [Situation, setSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
   const [goal, setGoal] = useState("I'm looking for a company that supports ongoing learning and growth.");
   const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
-  const [languages, setLanguages] = useState(['HTML', 'CSS', 'JavaScript', 'TypeScript', 'C#', 'PHP']);
-  const [developmentUtilities, setDevelopmentUtilities] = useState(['React', 'Node.js', 'Express', 'Strapi']);
+  const [languages, setLanguages] = useState(["HTML", "CSS", "JavaScript", "TypeScript", "C#", "PHP"]);
+  const [developmentUtilities, setDevelopmentUtilities] = useState(["React", "Node.js", "Express", "Strapi"]);
   const [extraUtilities, setExtraUtilities] = useState(
-  ['Git', 
-   'Github', 
-   'Jira', 
-   'Bitbucket', 
-   'mySQL', 
-   'postgreSQL', 
-   'MongoDB', 
-   'Netlify', 
-   'Heroku']
+  ["Git", 
+   "Github", 
+   "Jira", 
+   "Bitbucket", 
+   "mySQL", 
+   "postgreSQL", 
+   "MongoDB", 
+   "Netlify", 
+   "Heroku"]
    );
 
   return (
