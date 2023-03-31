@@ -10,12 +10,12 @@
 import React, { useState } from 'react';
 
 function About() {
-  const [name, setName] = useState('Pablo');
-  const [location, setLocation] = useState('Antwerp');
+  const [name, setName] = useState("Pablo");
+  const [location, setLocation] = useState("Antwerp");
   const [driven, setDriven] = useState(true);
-  const [Situation, setSituation] = useState('I completed a 7-month full-stack developer course and a 3-month internship.');
-  const [goal, setGoal] = useState('I'm looking for a company that supports ongoing learning and growth.');
-  const [focusing, setFocusing] = useState('Refining my full-stack expertise with React and Node.js.');
+  const [Situation, setSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship.");
+  const [goal, setGoal] = useState("I'm looking for a company that supports ongoing learning and growth.");
+  const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
   const [languages, setLanguages] = useState(['HTML', 'CSS', 'JavaScript', 'TypeScript', 'C#', 'PHP']);
   const [developmentUtilities, setDevelopmentUtilities] = useState(['React', 'Node.js', 'Express', 'Strapi']);
   const [extraUtilities, setExtraUtilities] = useState(['Git', 'Github', 'Jira', 'Bitbucket', 'mySQL', 'postgreSQL', 'MongoDB', 'Netlify', 'Heroku']);
