@@ -39,7 +39,7 @@ function About() {
         <li>Driven: {driven.toString()}</li>
       </ul>
       <p><strong>Present Situation:</strong> {presentSituation}</p>
-      <p><strong>Goal:</strong> {goal}</p>
+      <p><strong>Goal: </strong> {goal}</p>
       <p><strong>Focusing On:</strong> {focusing}</p>
       <p><strong>Languages:</strong></p>
       <ul>
