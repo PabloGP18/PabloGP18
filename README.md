@@ -18,7 +18,17 @@ function About() {
   const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js.");
   const [languages, setLanguages] = useState(['HTML', 'CSS', 'JavaScript', 'TypeScript', 'C#', 'PHP']);
   const [developmentUtilities, setDevelopmentUtilities] = useState(['React', 'Node.js', 'Express', 'Strapi']);
-  const [extraUtilities, setExtraUtilities] = useState(['Git', 'Github', 'Jira', 'Bitbucket', 'mySQL', 'postgreSQL', 'MongoDB', 'Netlify', 'Heroku']);
+  const [extraUtilities, setExtraUtilities] = useState(
+  ['Git', 
+   'Github', 
+   'Jira', 
+   'Bitbucket', 
+   'mySQL', 
+   'postgreSQL', 
+   'MongoDB', 
+   'Netlify', 
+   'Heroku']
+   );
 
   return (
     <div>
