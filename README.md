@@ -1,24 +1,66 @@
-### Hi there I'm [Pablo Garcia Plaza](https://github.com/PabloGP18)
+/****************************************************************************************************
+ *                                                                                                  *
+ *                                        Hello, World!                                            *
+ *                                                                                                  *
+ ****************************************************************************************************/
+
+##Connect with me on
+[![Connect with me on LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yourname/)](https://www.linkedin.com/in/pablo-garcia-plaza/)
+
+<a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
+ <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+```
+import React, { useState } from 'react';
+
+function About() {
+  const [name, setName] = useState("Pablo");
+  const [location, setLocation] = useState("Antwerp");
+  const [driven, setDriven] = useState(true);
+  const [presentSituation, setPresentSituation] = useState("I completed a 7-month full-stack developer course and a 3-month internship");
+  const [goal, setGoal] = useState("I'm looking for a company that supports ongoing learning and growth, where I can thrive as a full-stack developer");
+  const [focusing, setFocusing] = useState("Refining my full-stack expertise with React and Node.js to create efficient and scalable applications");
+  const [languages, setLanguages] = useState(['HTML', 'CSS', 'JavaScript', 'TypeScript', 'C#', 'PHP']);
+  const [developmentUtilities, setDevelopmentUtilities] = useState(['React', 'Node.js', 'Express', 'Strapi']);
+  const [extraUtilities, setExtraUtilities] = useState(['Git', 'Github', 'Jira', 'Bitbucket', 'mySQL', 'postgreSQL', 'MongoDB', 'Netlify', 'Heroku']);
+
+  return (
+    <div>
+      <h1>About Me</h1>
+      <ul>
+        <li>Name: {name}</li>
+        <li>Location: {location}</li>
+        <li>Driven: {driven.toString()}</li>
+      </ul>
+      <p><strong>Present Situation:</strong> {presentSituation}</p>
+      <p><strong>Goal:</strong> {goal}</p>
+      <p><strong>Focusing On:</strong> {focusing}</p>
+      <p><strong>Languages:</strong></p>
+      <ul>
+        {languages.map((language) => <li key={language}>{language}</li>)}
+      </ul>
+      <p><strong>Development Utilities:</strong></p>
+      <ul>
+        {developmentUtilities.map((utility) => <li key={utility}>{utility}</li>)}
+      </ul>
+      <p><strong>Extra Utilities:</strong></p>
+      <ul>
+        {extraUtilities.map((utility) => <li key={utility}>{utility}</li>)}
+      </ul>
+    </div>
+  );
+}
+
+export default About;
+```
+
+## Stats
+![PabloGP18 GitHub stats](https://github-readme-stats.vercel.app/api?username=PabloGP18&theme=blue-green) <br>
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloGP18&theme=blue-green)<br>
+![Visitor Count](https://profile-counter.glitch.me/PabloGP18/count.svg)
+
+
 
 <!--
 **PabloGP18/PabloGP18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
-
-- 🔭 I’m currently studying @ becode to become a junior developer
-- 📫 How to reach me: garciaplaza.pablo@gmail.com
-
-## Stats
-![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Phpstorm](http://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Saas](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Mariadb](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-
-![PabloGP18 GitHub stats](https://github-readme-stats.vercel.app/api?username=PabloGP18&theme=blue-green) <br>
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloGP18&theme=blue-green)<br>
-![Visitor Count](https://profile-counter.glitch.me/PabloGP18/count.svg)
