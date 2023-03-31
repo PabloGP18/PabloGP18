@@ -10,7 +10,8 @@
 <a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
  <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-```
+
+```ts
 import React, { useState } from 'react';
 
 function About() {
