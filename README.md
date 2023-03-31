@@ -1,7 +1,5 @@
 
-##Connect with me on
-[![Connect with me on LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yourname/)](https://www.linkedin.com/in/pablo-garcia-plaza/)
-
+## Connect with me on
 <a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
  <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
