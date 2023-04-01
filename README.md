@@ -1,32 +1,37 @@
 <h1 align="center">
-  Hello!
+  Hi there
   <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" alt="waving hand" width="22px">
 </h1>
 
+## :mailbox: Contact me here 
+[![LinkedIn badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablo-garcia-plaza/)
+[![Gmail badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:garciaplaza.pablo)
 
-### Connect with me on <a href="https://www.linkedin.com/in/pablo-garcia-plaza/">
- <img align="center" alt="linkedn"  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
+## :man_technologist: About me
 ```ts
-function About() {
+import { useState } from 'react';
+
+function AboutMe() {
   const [name, setName] = useState("Pablo");
   const [location, setLocation] = useState("Antwerp");
   const [driven, setDriven] = useState(true);
+  
   const [
     presentSituation,
     setPresentSituation,
   ] = useState(
-    "I completed a 7-month full-stack developer course and a 3-month internship."
-  );
+    "I completed a 7-month full-stack developer course and a 3-month internship.");
+  
   const [
     goal,
     setGoal,
   ] = useState("I'm looking for a company that supports ongoing learning and growth.");
+  
   const [
     focusing,
     setFocusing,
   ] = useState("Refining my full-stack expertise with React and Node.js.");
+  
   const [languages, setLanguages] = useState([
     "HTML",
     "CSS",
@@ -35,12 +40,14 @@ function About() {
     "C#",
     "PHP",
   ]);
+  
   const [developmentUtilities, setDevelopmentUtilities] = useState([
     "React",
     "Node.js",
     "Express",
     "Strapi",
   ]);
+  
   const [extraUtilities, setExtraUtilities] = useState([
     "Git",
     "Github",
@@ -55,64 +62,21 @@ function About() {
 
   return (
     <div>
-      <h1 style={{ fontSize: "24px" }}>About Me</h1>
-      <ul>
-        <li>Name: {name}</li>
-        <li>Location: {location}</li>
-        <li>Driven: {driven.toString()}</li>
-      </ul>
-      {presentSituation && (
-        <p>
-          <strong>Present Situation:</strong> {presentSituation}
-        </p>
-      )}
-      {goal && (
-        <p>
-          <strong>Goal:</strong> {goal}
-        </p>
-      )}
-      {focusing && (
-        <p>
-          <strong>Focusing On:</strong> {focusing}
-        </p>
-      )}
-      <p>
-        <strong>Languages:</strong>
-      </p>
-      <ul>
-        {languages.map((language) => (
-          <li key={language}>{language}</li>
-        ))}
-      </ul>
-      <p>
-        <strong>Development Utilities:</strong>
-      </p>
-      <ul>
-        {developmentUtilities.map((utility) => (
-          <li key={utility}>{utility}</li>
-        ))}
-      </ul>
-      <p>
-        <strong>Extra Utilities:</strong>
-      </p>
-      <ul>
-        {extraUtilities.map((utility) => (
-          <li key={utility}>{utility}</li>
-        ))}
-      </ul>
+      <h1>About Me</h1>
+     {/* Code to render the component goes here... */}
     </div>
   );
 }
 
-export default About;
+export default AboutMe;
 
 ```
 
-## Stats
-![PabloGP18 GitHub stats](https://github-readme-stats.vercel.app/api?username=PabloGP18&theme=blue-green) <br>
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloGP18&theme=blue-green)<br>
+## :fireworks: Stats
+![PabloGP18 GitHub stats](https://github-readme-stats.vercel.app/api?username=PabloGP18&theme=blue-green)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PabloGP18&theme=blue-green&layout=compact&langs_count=8)
+<br>
 ![Visitor Count](https://profile-counter.glitch.me/PabloGP18/count.svg)
-
 
 
 <!--
