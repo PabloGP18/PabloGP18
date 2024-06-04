@@ -20,15 +20,17 @@ function AboutMe() {
     presentSituation,
     setPresentSituation,
   ] = useState(
-    "I completed a 7-month full-stack developer course and a 3-month internship.
-    Currently, I'm working as an automation testing engineer.");
+      "I completed a 7-month full-stack developer course and a 3-month internship.
+      Currently, I'm working as an automation testing engineer."
+    );
   
   const [
     goal,
     setGoal,
   ] = useState(
       "I'm looking to advance my career by deepening my knowledge in full stack development
-      and automation testing, contributing to impactful projects in a dynamic company.");
+      and automation testing, contributing to impactful projects in a dynamic company."
+    );
   
   const [
     focusing,
