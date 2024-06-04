@@ -20,17 +20,18 @@ function AboutMe() {
     presentSituation,
     setPresentSituation,
   ] = useState(
-    "I completed a 7-month full-stack developer course and a 3-month internship.");
+    "I completed a 7-month full-stack developer course and a 3-month internship.
+    Currently, I'm working as an automation testing engineer.");
   
   const [
     goal,
     setGoal,
-  ] = useState("I'm looking for a company that supports ongoing learning and growth.");
+  ] = useState(  "I'm looking to advance my career by deepening my knowledge in full stack development and automation testing, contributing to impactful projects in a dynamic company.");
   
   const [
     focusing,
     setFocusing,
-  ] = useState("Refining my full-stack expertise with React and Node.js.");
+  ] = useState("Enhancing my skills in full-stack development and expanding my expertise in automation testing.");
   
   const [languages, setLanguages] = useState([
     "HTML",
@@ -39,6 +40,7 @@ function AboutMe() {
     "TypeScript",
     "C#",
     "PHP",
+    "Java"
   ]);
   
   const [developmentUtilities, setDevelopmentUtilities] = useState([
@@ -46,6 +48,14 @@ function AboutMe() {
     "Node.js",
     "Express",
     "Strapi",
+    "Spring Boot"
+  ]);
+
+  const [testingUtilities, setTestingUtilities] = useState([
+    "Cypress",
+    "Playwright",
+    "Rest Assured",
+    "Manifold",
   ]);
   
   const [extraUtilities, setExtraUtilities] = useState([
@@ -53,11 +63,17 @@ function AboutMe() {
     "Github",
     "Jira",
     "Bitbucket",
+    "Jenkins"
     "mySQL",
     "postgreSQL",
     "MongoDB",
     "Netlify",
     "Heroku",
+  ]);
+
+  const [certificates, setCertificates] = useState([
+    "Full Stack Developer Course",
+    "ISTQB Foundation",
   ]);
 
   return (
