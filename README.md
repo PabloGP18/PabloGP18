@@ -26,7 +26,8 @@ function AboutMe() {
   const [
     goal,
     setGoal,
-  ] = useState(  "I'm looking to advance my career by deepening my knowledge in full stack development and automation testing, contributing to impactful projects in a dynamic company.");
+  ] = useState(  "I'm looking to advance my career by deepening my knowledge in full stack development and automation testing,
+      contributing to impactful projects in a dynamic company.");
   
   const [
     focusing,
